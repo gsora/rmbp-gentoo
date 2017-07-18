@@ -1,0 +1,5 @@
+net-irc/weechat
+# required by visual-studio-code (argument)
+=app-editors/visual-studio-code-1.14.1 ~amd64
+# required by discord-bin (argument)
+=net-im/discord-bin-0.0.1 ~amd64

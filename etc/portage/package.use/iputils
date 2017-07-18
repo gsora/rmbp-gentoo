@@ -1,0 +1,34 @@
+net-misc/iputils -caps -filecaps
+# required by dev-qt/qtcore-5.7.1-r3::gentoo
+# required by dev-qt/qtdeclarative-5.7.1::gentoo
+# required by x11-misc/sddm-0.14.0-r2::gentoo
+# required by sddm (argument)
+>=dev-libs/libpcre-8.40-r1 pcre16
+# required by app-editors/neovim-0.2.0::gentoo
+# required by neovim (argument)
+>=dev-lua/lpeg-1.0.1 luajit
+# required by media-sound/pulseaudio-10.0::gentoo[alsa,alsa-plugin]
+# required by www-client/firefox-bin-52.2.0::gentoo[pulseaudio]
+# required by firefox-bin (argument)
+>=media-plugins/alsa-plugins-1.1.1-r1 pulseaudio
+# required by app-editors/neovim-0.2.0::gentoo
+# required by neovim (argument)
+>=dev-lua/mpack-1.0.4 luajit
+# required by x11-terms/termite-11::nightmare
+# required by x11-terms/termite (argument)
+=x11-libs/vte-0.42.1 termite-patch
+# required by x11-terms/termite-12::eroen
+# required by x11-terms/termite (argument)
+>=x11-libs/vte-0.46.1 termite-patch
+# required by app-misc/neofetch-2.0.2::gentoo[X]
+# required by neofetch (argument)
+>=www-client/w3m-0.5.3-r9 imlib
+# required by sys-power/suspend-1.0_p20150810::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgcrypt-1.7.8 static-libs
+# required by sys-power/suspend-1.0_p20150810::gentoo[crypt]
+# required by sys-power/suspend (argument)
+>=dev-libs/libgpg-error-1.27-r1 static-libs
+# required by sys-power/suspend-1.0_p20150810::gentoo[lzo]
+# required by sys-power/suspend (argument)
+>=dev-libs/lzo-2.09 static-libs

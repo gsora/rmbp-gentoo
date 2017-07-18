@@ -1,0 +1,4 @@
+media-video/mpv pulseaudio
+# required by net-misc/youtube-viewer-3.2.8::gentoo
+# required by net-misc/youtube-viewer (argument)
+>=media-video/ffmpeg-3.2.4 openssl
