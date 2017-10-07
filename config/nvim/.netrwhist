@@ -1,8 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/gsora/Go/src/github.com'
-let g:netrw_dirhist_2='/home/gsora/Go/src/github.com/johnathanhowell'
-let g:netrw_dirhist_3='/home/gsora/Go/src/github.com/johnathanhowell/sia-coldstorage'
-let g:netrw_dirhist_4='/home/gsora/Go/src/github.com/gsora/siahue/siaconn'
-let g:netrw_dirhist_5='/home/gsora/Go/src/github.com/gsora/siahue'
-let g:netrw_dirhist_6='/home/gsora/Go/src/github.com/gsora/siahue/siaconn'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/gsora/Go/src/TeamGoTrader/oanda'

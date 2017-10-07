@@ -103,7 +103,7 @@ setopt correctall
 
 export EDITOR=nvim
 
-export GOPATH=/home/gsora/Go
+export GOPATH=/home/gsora/go
 export PATH=$GOPATH/bin:$PATH
 export ANDROID_NDK=/opt/android-ndk-r14b
 
@@ -113,3 +113,8 @@ export SAVEHIST=$HISTSIZE
 setopt hist_ignore_all_dups
 
 alias x="startx"
+
+# Google Cloud SDK
+source /home/gsora/.google-cloud-sdk/completion.zsh.inc
+source /home/gsora/.google-cloud-sdk/path.zsh.inc
+PATH=$PATH:~/.goapp/go_appengine
